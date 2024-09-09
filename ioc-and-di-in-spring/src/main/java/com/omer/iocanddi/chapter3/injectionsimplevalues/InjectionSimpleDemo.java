@@ -1,4 +1,4 @@
-package com.omer.iocanddi.injectionsimplevalues;
+package com.omer.iocanddi.chapter3.injectionsimplevalues;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

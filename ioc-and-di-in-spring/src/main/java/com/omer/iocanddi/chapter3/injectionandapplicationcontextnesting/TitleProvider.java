@@ -1,4 +1,4 @@
-package com.omer.iocanddi.injectionandapplicationcontextnesting;
+package com.omer.iocanddi.chapter3.injectionandapplicationcontextnesting;
 
 import io.micrometer.common.util.StringUtils;
 

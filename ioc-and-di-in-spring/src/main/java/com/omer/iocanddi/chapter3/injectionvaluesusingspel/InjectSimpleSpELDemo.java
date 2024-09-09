@@ -1,4 +1,4 @@
-package com.omer.iocanddi.injectionvaluesusingspel;
+package com.omer.iocanddi.chapter3.injectionvaluesusingspel;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

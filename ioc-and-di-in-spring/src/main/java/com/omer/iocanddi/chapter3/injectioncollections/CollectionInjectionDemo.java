@@ -1,4 +1,4 @@
-package com.omer.iocanddi.injectioncollections;
+package com.omer.iocanddi.chapter3.injectioncollections;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

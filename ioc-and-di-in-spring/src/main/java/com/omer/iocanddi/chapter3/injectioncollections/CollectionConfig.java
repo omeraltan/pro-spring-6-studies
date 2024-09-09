@@ -1,6 +1,6 @@
-package com.omer.iocanddi.injectioncollections;
+package com.omer.iocanddi.chapter3.injectioncollections;
 
-import com.omer.iocanddi.injectionandapplicationcontextnesting.Song;
+import com.omer.iocanddi.chapter3.injectionandapplicationcontextnesting.Song;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

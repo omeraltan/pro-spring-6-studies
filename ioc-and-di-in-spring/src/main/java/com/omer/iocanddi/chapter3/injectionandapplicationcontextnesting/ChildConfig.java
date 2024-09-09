@@ -1,4 +1,4 @@
-package com.omer.iocanddi.injectionandapplicationcontextnesting;
+package com.omer.iocanddi.chapter3.injectionandapplicationcontextnesting;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Value;

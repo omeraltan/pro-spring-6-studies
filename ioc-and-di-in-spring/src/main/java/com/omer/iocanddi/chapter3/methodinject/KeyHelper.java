@@ -1,4 +1,4 @@
-package com.omer.iocanddi.methodinject;
+package com.omer.iocanddi.chapter3.methodinject;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

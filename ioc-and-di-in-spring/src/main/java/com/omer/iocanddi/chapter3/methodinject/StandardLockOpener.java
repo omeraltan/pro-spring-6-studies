@@ -1,4 +1,4 @@
-package com.omer.iocanddi.methodinject;
+package com.omer.iocanddi.chapter3.methodinject;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

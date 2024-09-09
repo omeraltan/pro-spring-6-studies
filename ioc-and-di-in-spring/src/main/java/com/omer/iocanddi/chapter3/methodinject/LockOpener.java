@@ -1,4 +1,4 @@
-package com.omer.iocanddi.methodinject;
+package com.omer.iocanddi.chapter3.methodinject;
 
 public interface LockOpener {
 

@@ -6,5 +6,5 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface Award {
-    String[] prize() default {};
+    String[] value() default {};
 }

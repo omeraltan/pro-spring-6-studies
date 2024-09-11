@@ -17,12 +17,12 @@ public class CollectionConfig {
         );
     }
 
-    @Bean
+    @Bean(name = "song11")
     public Song song1(){
         return new Song("Here's to hoping");
     }
 
-    @Bean
+    @Bean(name = "song22")
     public Song song2(){
         return new Song("Wishing the best for you");
     }

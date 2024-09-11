@@ -1,6 +1,7 @@
 package com.omer.iocanddi.chapter3.injectionandapplicationcontextnesting;
 
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -10,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ChildConfig implements ApplicationContextAware {
 
+    @Autowired
     public ApplicationContext applicationContext;
 
     @Bean
@@ -18,12 +20,12 @@ public class ChildConfig implements ApplicationContextAware {
     }
 
     @Bean
-    public Song song1(@Value("#{parentProvider.title}") String title) {
+    public Song song1(@Value("#{parentChildProvider.title}") String title) {
         return new Song(title);
     }
 
     @Bean
-    public Song song2(@Value("#{childConfig.applicationContext.parent.getBean(\"childProvider\").title}") String title) {
+    public Song song2(@Value("#{parentChildProvider.title}") String title) {
         return new Song(title);
     }
 

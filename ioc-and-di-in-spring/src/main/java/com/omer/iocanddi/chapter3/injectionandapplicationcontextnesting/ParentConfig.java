@@ -6,12 +6,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ParentConfig {
 
-    @Bean
+    @Bean(name = "parentChildProvider")
     public TitleProvider parentProvider(){
         return TitleProvider.instance(null);
     }
 
-    @Bean
+    @Bean(name = "childChildProvider")
     public TitleProvider childProvider(){
         return TitleProvider.instance("Daughters");
     }

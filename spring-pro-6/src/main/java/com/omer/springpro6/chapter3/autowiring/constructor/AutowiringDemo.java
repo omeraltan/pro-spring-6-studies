@@ -2,6 +2,7 @@ package com.omer.springpro6.chapter3.autowiring.constructor;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -42,6 +43,7 @@ class Target {
     public Target() {
         logger.info(" --> Target() called");
     }
+
 
     public Target(Foo foo) {
         this.fooOne = foo;

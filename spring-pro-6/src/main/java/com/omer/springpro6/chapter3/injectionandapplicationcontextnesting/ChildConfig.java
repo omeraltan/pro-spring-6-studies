@@ -25,7 +25,7 @@ public class ChildConfig implements ApplicationContextAware {
     }
 
     @Bean
-    public Song song2(@Value("#{parentChildProvider.title}") String title) {
+    public Song song2(@Value("#{childConfig.applicationContext.parent.getBean(\"childChildProvider\").title}") String title) {
         return new Song(title);
     }
 

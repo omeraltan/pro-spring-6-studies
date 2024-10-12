@@ -3,10 +3,7 @@ package com.omer.springpro6.chapter3.autowiring.bytype;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
+import org.springframework.context.annotation.*;
 import org.springframework.stereotype.Component;
 
 import java.util.UUID;
@@ -31,6 +28,10 @@ public class AutowiringDemo {
 @ComponentScan
 class AutowiringCfg2 {
 
+//    @Bean
+//    Foo2 anotherFoo(){
+//        return new Foo2();
+//    }
 }
 
 @Component

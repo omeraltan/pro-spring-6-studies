@@ -9,7 +9,7 @@ import java.util.List;
 @Configuration
 public class CollectionConfig {
 
-    @Bean
+    @Bean(name = "list")
     public List<Song> list() {
         return List.of(
             new Song("Not the end"),
